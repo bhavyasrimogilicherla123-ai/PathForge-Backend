@@ -28,7 +28,7 @@ public class SecurityConfig {
 
     private final JwtAuthFilter jwtAuthFilter;
 
-    @Value("${pathforge.cors.allowed-origins:http://localhost:8080,http://localhost:5500,http://127.0.0.1:5500,https://*.vercel.app}")
+    @Value("${pathforge.cors.allowed-origins:http://localhost:8080,http://localhost:5500,http://127.0.0.1:5500,https://pathforge-frontend-wheat.vercel.app,https://*.vercel.app}")
     private String allowedOrigins;
 
     public SecurityConfig(JwtAuthFilter jwtAuthFilter) {

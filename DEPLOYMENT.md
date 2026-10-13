@@ -73,7 +73,7 @@ Render Web Services do not include local MySQL by default. You need a reachable 
 
 6. Click **Create Web Service**.
 7. Once deployed, Render will provide your public backend URL, e.g.:
-   `https://pathforge-backend.onrender.com`
+   `https://pathforge-backend-1-vpr0.onrender.com`
 
 ---
 
